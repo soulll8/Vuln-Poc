@@ -1,7 +1,6 @@
 # D-Link DIR-816 A2 Stack Overflow 
 #### Vender & Firmware version ：D-Link 1.10 B05 
 #### CVE-ID : CVE-2018-20305
-#### Exploit Author : ScareCrowL 
 #### Vendor Homepage : http://www.dlink.com.cn/
 #### Hardware Link : http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816 
 ![image](https://github.com/RootSoull/Vuln-Poc/blob/master/D-Link/DIR-816/DLINK.jpeg)
