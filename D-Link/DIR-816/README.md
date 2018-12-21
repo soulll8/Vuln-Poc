@@ -24,7 +24,7 @@ After running the poc, we easily get the shell.
 ![image](https://github.com/RootSoull/Vuln-Poc/blob/master/D-Link/DIR-816/GETSHELL.png)
 
 # POC
-More details, as the manufacturer did not fix, will not be disclosed here.
+More details, as the Vendor did not fix, will not be disclosed here.
 ```python
 #!/usr/bin/env python
 # POC code reference: https://github.com/PAGalaxyLab/VulInfo/tree/master/D-Link/DIR-816/stack_overflow_1
